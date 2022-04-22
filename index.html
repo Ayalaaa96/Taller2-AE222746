@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="contenedor">
+          <a class="imagenmenu"><img src="img/po.png"></a>
+
+    <input type="checkbox" id="menu-bar">
+    <label class="icon-menu"for="menu-bar">
+    </label>
+          <nav class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">El Club</a>
+            <a href="#">Actividades</a>
+            <a href="#">Torneo</a>
+            <a href="#">Inscripción en linea</a>
+            <a href="#">Videos</a>
+          </nav>
+        </div>
+    </header>
+      
+      <div class="container">
+        <div class="card">
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div> 
+        <div class="card">
+          <form action="registro.php" method="post">
+    <fieldset>
+      <legend>Datos Personales</legend>
+      <label for="Nombre">Nombres: </label><br>
+      <input type="text" name="nombre" id="nombre"><br>
+      
+      <label for="apellido">Apellidos: </label><br>
+      <input type="text" name="apellido" id="apellido"><br>
+
+      <label>Fecha de Nacimiento</label><br>
+        <input type="date" name="f_nacimiento"><br>
+
+      <label>Edad: </label><br>
+      <input type="number" min="0" max="100" name="edad" /><br><br>
+
+      <label>Género: </label><br>
+      <input type="radio" checked name="gene" />Masculino
+      <input type="radio" checked name="gene" />Femenino 
+<br><br>
+      <label>Correo Electrónico</label><br>
+      <input type="email" name="correo"><br>
+
+      <label>Departamento: </label><br><br>
+      <select name="departa" id="departa">
+      <option> </option>
+      <option>Santa Ana</option>
+      <option>Sonsonate</option>
+      <option>Ahuachapán</option>
+      <option>Chalatenango</option>
+      <option>La Libertad</option>
+      <option>San Salvador</option>
+      <option>La Paz</option>
+      <option>Cuscatlán</option>
+      <option>Cabañas</option>
+      <option>San Vicente</option>
+      <option>Usulután</option>
+      <option>San Miguel</option>
+      <option>Morazán</option>
+      <option>La Unión</option>
+    </select> 
+<br>
+
+    <label>Domicilio: </label><br><br>
+    <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+    <input type="submit" value="Registrarme">
+    </fieldset>
+    
+  </form>
+        </div> 
+      </div> 
+
+      <footer>Todos los derechos reservados | Diseñado por Alessandro Ayala </footer>
+</body>
+</html>
